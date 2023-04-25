@@ -1,0 +1,107 @@
+body {
+    background-color: #363636;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+  
+  header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    height: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .logo h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding-left: 60px;
+    font-size: 20px;
+  }
+  
+  nav li {
+    margin-right: 16px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 45px;
+  }
+  
+  nav a:hover {
+    color: #c0c0c0;
+  }
+  
+    .sidebar {
+      margin-top: 55px;
+      background-color: #333;
+      width: 200px;
+      height: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      padding: 20px;
+    }
+  
+    .sidebar a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+  
+    .sidebar a:hover {
+      background-color: #555;
+    }
+  
+    .navbar {
+      display: inline-flex;
+    }
+  
+    .search {
+      display: flex;
+      align-items: center;
+  }
+  
+  .search input {
+      padding-left: 106px;
+      padding-right: 106px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border: #5c5c5c;
+      border-radius: 8px;
+      background-color: rgb(255, 255, 255);
+  
+  
+  } 
+  footer {
+    background: color #000;;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer p {
+    margin: 0;
+    color: white;
+  }
